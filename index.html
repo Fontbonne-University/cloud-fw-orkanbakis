@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Info Sec Conf</title>
+    <title>Information Security Conference</title>
 </head>
 <body>
 
@@ -26,17 +26,23 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Speakers</a>
-            </li>
         </ul>
     </div>
-    <a class="navbar-brand" href="#">Fontbonne</a>
+    <a class="navbar-brand" href="#">Fontbonne University</a>
 </nav>
+
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container text-sm-center pt-5">
+        <h1 class="display-2">Information Security Conference</h1>
+        <p class="lead">A one day conference on Information Security.</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a type="button" class="btn btn-primary btn-lg" href="#speaker">Speakers</a>
+            <a type="button" class="btn btn-secondary btn-lg" href="#schedule">Schedule</a>
+        </div>
+    </div>
+
+</div><!--Jumbotron ends -->
+
     <div class="container pt-4" >
       <div class="row">
             <div class="col-sm">
@@ -71,14 +77,180 @@
             </div>
         </div><!-- about -->
         <!-- Speakers -->
-        <h1 class="display-4 text-center">Speakers</h1>
-        [Speakers bios go here]
+        <h1 id="speaker" class="display-4 text-center">Speakers</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/angie.png" alt="Angie">
+                    <div class="card-body">
+                        <h5 class="card-title">Angela</h5>
+                        <p class="card-text">A world renouned expert in cyber security</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/ecma.png" alt="Ecma">
+                    <div class="card-body">
+                        <h5 class="card-title">Ecma</h5>
+                        <p class="card-text">Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/geo.png" alt="Geo">
+                    <div class="card-body">
+                        <h5 class="card-title">Geo "Lo"</h5>
+                        <p class="card-text">Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/jay.png" alt="Jay">
+                    <div class="card-body">
+                        <h5 class="card-title">Jay</h5>
+                        <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/json.png" alt="Json">
+                    <div class="card-body">
+                        <h5 class="card-title">Json</h5>
+                        <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/nodestradamus.png" alt="No">
+                    <div class="card-body">
+                        <h5 class="card-title">Gandalf</h5>
+                        <p class="card-text">NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <!-- Schedule -->
-        <h1 class="display-4 text-center">Schedule</h1>
-        [Conference schedule goes here]
+        <h1 id="schedule" class="display-4 text-center">Schedule</h1>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Keynote: Information Security</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">9:00am</span>
+                </div>
+                <p class="mb-1">Gandalf</p>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Virtualization Basics</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">10:00am</span>
+                </div>
+                <p class="mb-1">Angela McAngular</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hey, Mongo!</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">11:00am</span>
+                </div>
+                <p class="mb-1">Jay Query</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Lunch</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">12:00pm</span>
+                </div>
+                <p class="mb-1">Free pizza for everyone</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Introducing JavaScript</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">1:00pm</span>
+                </div>
+                <p class="mb-1">Ecma Scriptnstuff</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Gettin' MEAN</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">2:00pm</span>
+                </div>
+                <p class="mb-1">Geo "Lo" Cation</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">What's Babel?</h5>
+                    <span class="badge badge-default badge-pill bg-info px-2 py-2 mt-2">3:00pm</span>
+                </div>
+                <p class="mb-1">JSon Babel</p>
+            </a>
+
+        </div>
+
+        <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5 btn-primary">Register Now</button>
+        <!--call out button -->
+
+        <!-- signup form -->
+        <hr>
+        <div class="row py-4 text-muted">
+            <div class="col-md-6">
+                <p><strong>About Fontbonne University</strong></p>
+                <p>Fontbonne University's values-based campus community promotes and embraces respect, compassion and service. Learn more. Be more.</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Stay up-to-date on Cloud Security Conf</strong></p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <span class="input-group-btn">
+			<button class="btn btn-primary" type="button">Sign up</button>
+			</span>
+                </div>
+            </div>
+        </div>
+        <hr><!-- /signup form -->
 
 
-    </div> <!-- /. container -->
+
+
+
+        <div class="row py-3">
+            <div class="col md-7">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tracks</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Cloud</a>
+                            <a class="dropdown-item" href="#">Java</a>
+                            <a class="dropdown-item" href="#">Bootstrap</a>
+                            <a class="dropdown-item" href="#">Git</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col md-5 text-md-right">
+                &copy; 2018 Info. Security Fontbonne University.
+            </div>
+
+        </div>
+</div> <!-- /. container -->
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
